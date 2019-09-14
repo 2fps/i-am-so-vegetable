@@ -52,3 +52,79 @@ var obj1 = new Te();    // Uncaught TypeError: Te is not a constructor
 + 我们可以通过 bind 实现柯里化。
 
 ### 模拟实现 call 方法
+```js
+// ES5 版
+function callES5() {
+    var ctx = arguments[0] || window,
+        args = [];
+
+    ctx.fn = this;
+
+    for (var i = 1, len = arguments.length; i < len; i++) {
+        args.push('arguments[' + i + ']');
+    }
+    var result = eval('ctx.fn(' + args +')');
+
+    delete ctx.fn;
+
+    return result;
+}
+
+// ES6 版
+function callES6(ctx, ...args) {
+    ctx = ctx || window;
+    ctx.fn = this;
+
+    let result = ctx.fn(...args);
+
+    delete ctx.fn;
+
+    return result;
+}
+
+```
+
+### 模拟实现 apply 方法
+
+```js
+function applyES5() {
+    var ctx = arguments[0] || window,
+        argu = arguments[1],
+        args = [];
+
+    ctx.fn = this;
+
+    for (var i = 0, len = argu.length; i < len; i++) {
+        args.push('argu[' + i + ']');
+    }
+    var result =  eval('ctx.fn(' + args +')');
+
+    return result;
+}
+
+function applyES6(ctx, args) {
+    ctx = ctx || window;
+    ctx.fn = this;
+    args = args || [];
+
+    let result = ctx.fn(...args);
+    delete ctx.fn;
+
+    return result;
+}
+```
+
+### 模拟实现bind方法
+
+``` js
+Function.prototype.mybind = function() {
+    var ctx = arguments[0] || window,
+        args = Array.prototype.slice.call(arguments, 1),
+        that = this;
+
+    return function() {
+        args = args.concat(Array.prototype.slice.call(arguments));
+        that.apply(ctx, args);
+    }
+}
+```
