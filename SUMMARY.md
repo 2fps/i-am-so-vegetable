@@ -5,6 +5,7 @@
 ---
 
 * [React](react/README.md)
-    * [React事件](react/事件/react事件.md)
+    * [生命周期](react/生命周期.md)
+    * [事件](react/事件.md)
 
 ---
