@@ -4,8 +4,8 @@
   "description": "Html + Css + JavaScript 个人知识树",
   "main": "index.js",
   "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build"
+    "start": "gitbook serve",
+    "build": "gitbook build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/2fps/i-am-so-vegetable#readme",
   "devDependencies": {
-    "gatsby": "^2.15.18"
+    "gitbook-cli": "^2.3.2"
   }
 }
