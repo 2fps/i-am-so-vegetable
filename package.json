@@ -1,0 +1,23 @@
+{
+  "name": "vegetable-hcj",
+  "version": "1.0.0",
+  "description": "Html + Css + JavaScript 个人知识树",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2fps/i-am-so-vegetable.git"
+  },
+  "author": "2fps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2fps/i-am-so-vegetable/issues"
+  },
+  "homepage": "https://github.com/2fps/i-am-so-vegetable#readme",
+  "devDependencies": {
+    "gatsby": "^2.15.18"
+  }
+}
