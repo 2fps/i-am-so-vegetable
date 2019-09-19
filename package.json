@@ -1,0 +1,23 @@
+{
+  "name": "vegetable-react",
+  "version": "1.0.0",
+  "description": "react 相关的个人知识树",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2fps/i-am-so-vegetable.git"
+  },
+  "author": "2fps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2fps/i-am-so-vegetable/issues"
+  },
+  "homepage": "https://github.com/2fps/i-am-so-vegetable#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
