@@ -5,6 +5,7 @@
 ---
 
 * [HTML](HTML/README.md)
+    * [布局](HTML/布局.md)
     * [meta标签](HTML/meta标签.md)
     * [DOM](HTML/dom.md)
 
@@ -28,4 +29,6 @@
 * [JavaScript](JavaScript/README.md)
     * [this问题](JavaScript/basic/this.md)
     * [拷贝](JavaScript/basic/拷贝.md)
+    * [闭包](JavaScript/basic/闭包.md)
+    * [变量](JavaScript/basic/变量.md)
 ---

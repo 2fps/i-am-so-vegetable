@@ -22,9 +22,13 @@
   },
   "dependencies": {
     "gitbook-plugin-back-to-top-button": "^0.1.4",
-    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-copy-code-button": "0.0.2",
     "gitbook-plugin-expandable-chapters-small": "^0.1.7",
     "gitbook-plugin-github": "^2.0.0",
-    "gitbook-plugin-search-pro": "^2.0.2"
+    "gitbook-plugin-page-toc-button": "^0.1.1",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "gitbook-plugin-popup": "0.0.1",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1"
   }
 }
