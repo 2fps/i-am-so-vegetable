@@ -1,4 +1,24 @@
 {
-    "title": "123",
-    "gitbook": "3.2.3"
+    "title": "React 知识树",
+    "description": "记录 React 知识点",
+    "gitbook": "3.2.3",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://www.zhuyuntao.cn"
+        }
+    },
+    "plugins": [
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "code",
+        "github"
+   ],
+   "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/2fps/i-am-so-vegetable/tree/react"
+        }
+   }
 }

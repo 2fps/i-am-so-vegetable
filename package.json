@@ -19,5 +19,12 @@
   "homepage": "https://github.com/2fps/i-am-so-vegetable#readme",
   "devDependencies": {
     "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-search-pro": "^2.0.2"
   }
 }
