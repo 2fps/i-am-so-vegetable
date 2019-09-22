@@ -1,6 +1,6 @@
 {
-    "title": "html + css + javascript 知识树",
-    "description": "记录 html + css + javascript 知识点",
+    "title": "Basic 知识树",
+    "description": "记录 Basic 知识点",
     "gitbook": "3.2.3",
     "links" : {
         "sidebar" : {
@@ -22,7 +22,7 @@
    ],
    "pluginsConfig": {
         "github": {
-            "url": "https://github.com/2fps/i-am-so-vegetable/tree/hcj"
+            "url": "https://github.com/2fps/i-am-so-vegetable/tree/basic"
         },
         "tbfed-pagefooter": {
             "copyright":"Copyright & copy http://www.zhuyuntao.cn 2019",

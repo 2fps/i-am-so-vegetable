@@ -1,7 +1,7 @@
 {
-  "name": "vegetable-hcj",
+  "name": "vegetable-basic",
   "version": "1.0.0",
-  "description": "Html + Css + JavaScript 个人知识树",
+  "description": "Basic 个人知识树",
   "main": "index.js",
   "scripts": {
     "start": "gitbook serve",
