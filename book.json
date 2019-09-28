@@ -1,0 +1,37 @@
+{
+    "title": "个人知识树",
+    "description": "记录学习的知识点",
+    "gitbook": "3.2.3",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://www.zhuyuntao.cn"
+        }
+    },
+    "plugins": [
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "copy-code-button",
+        "github",
+        "tbfed-pagefooter",
+        "page-toc-button",
+        "pageview-count",
+        "popup"
+   ],
+   "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/2fps/i-am-so-vegetable/tree/hcj"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright & copy http://www.zhuyuntao.cn 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        }
+   }
+}

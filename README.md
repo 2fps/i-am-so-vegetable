@@ -3,27 +3,20 @@
 
 请查看 branch :
 
-+ html + css + javascript 知识树 , [hcj](https://github.com/2fps/i-am-so-vegetable/tree/hcj)。
++ html + css + javascript 知识树。
 
 整体内容：
 
 ## HCJ
-
-Web地址：[HCJ](http://hcj.zhuyuntao.cn)
 
 1. html
 
 2. css
 
 3. javascript
-+ [this](https://github.com/2fps/i-am-so-vegetable/blob/hcj/JavaScript/basic/this.md)
-+ [拷贝](https://github.com/2fps/i-am-so-vegetable/blob/hcj/JavaScript/basic/%E6%8B%B7%E8%B4%9D.md)
 
 ## React
 
-Web地址：[React](http://react.zhuyuntao.cn)
-
-
-一张图表示现在的自己。
+名字来源于下图：
 
 ![i-am-so-vegetable](http://image.zhuyuntao.cn/image/2019/09/vegetable.jpg)

@@ -1,0 +1,34 @@
+{
+  "name": "vegetable",
+  "version": "1.0.0",
+  "description": "个人知识树",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2fps/i-am-so-vegetable.git"
+  },
+  "author": "2fps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2fps/i-am-so-vegetable/issues"
+  },
+  "homepage": "https://github.com/2fps/i-am-so-vegetable#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-page-toc-button": "^0.1.1",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "gitbook-plugin-popup": "0.0.1",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1"
+  }
+}
