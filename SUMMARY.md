@@ -47,7 +47,7 @@
 
 * [js-audio-recorder](Recorder/README.md)
     * [使用](Recorder/start.md)
-    * [Config](Recorder/config.md)
+    * [属性](Recorder/config.md)
     * [API](Recorder/API.md)
     * [Event](Recorder/event.md)
 

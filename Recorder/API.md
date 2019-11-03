@@ -165,3 +165,19 @@ setInterval(() => {
 // 实时录音，则可将该数据返回给服务端。
 ```
 
+### 录音波形显示
+#### getRecordAnalyseData()
+> 返回的是一个1024长的，0-255大小的Uint8Array类型。用户可以根据这些数据自定义录音波形。
+
+``` js
+let dataArray = recorder.getRecordAnalyseData();
+```
+
+### 其他音频播放
+#### playAudio(blob)
+> 播放外部音频，格式由浏览器的audio支持的类型决定。
+
+
+``` js
+Recorder.playAudio(/* 放入blob数据 */);
+```
