@@ -44,3 +44,11 @@
     * [前言](ant-design/preface/README.md)
 
 ---
+
+* [js-audio-recorder](Recorder/README.md)
+    * [使用](Recorder/start.md)
+    * [Config](Recorder/config.md)
+    * [API](Recorder/API.md)
+    * [Event](Recorder/event.md)
+
+---

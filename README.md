@@ -17,6 +17,6 @@
 
 ## React
 
-名字来源于下图：
+项目名字来源于下图：
 
 ![i-am-so-vegetable](http://image.zhuyuntao.cn/image/2019/09/vegetable.jpg)
