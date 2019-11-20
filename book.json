@@ -4,7 +4,7 @@
     "gitbook": "3.2.3",
     "links" : {
         "sidebar" : {
-            "Home" : "http://www.zhuyuntao.cn"
+            "Home" : "https://github.com/2fps/i-am-so-vegetable"
         }
     },
     "plugins": [
@@ -23,10 +23,10 @@
    ],
    "pluginsConfig": {
         "github": {
-            "url": "https://github.com/2fps/i-am-so-vegetable/tree/hcj"
+            "url": "https://github.com/2fps/i-am-so-vegetable"
         },
         "tbfed-pagefooter": {
-            "copyright":"Copyright & copy http://www.zhuyuntao.cn 2019",
+            "copyright":"Copyright & copy https://www.zhuyuntao.cn 2019",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
