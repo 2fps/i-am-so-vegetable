@@ -50,5 +50,6 @@
     * [属性](Recorder/config.md)
     * [API](Recorder/API.md)
     * [Event](Recorder/event.md)
+    * [应用](Recorder/application.md)
 
 ---

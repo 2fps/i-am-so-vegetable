@@ -24,5 +24,4 @@ let recorder = new Recorder();
 let recorder = new Recorder();
 ```
 
-Hava Fun!
 

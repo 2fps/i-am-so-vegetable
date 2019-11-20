@@ -19,5 +19,5 @@
 
 [recorder](https://recorder.zhuyuntao.cn/)
 
-欢迎star.
+Hava Fun!
 

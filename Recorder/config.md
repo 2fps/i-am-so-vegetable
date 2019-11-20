@@ -24,6 +24,29 @@ let recorder = new Recorder({
 ### compiling
 > 是否边录音边转换。
 
+获取数据方法：
++ 回调方式
+
+```js
+recorder.onprogress = function(params) {
+    console.log(params.data);       // 当前获取到到音频数据
+}
+```
+
+data，DataView型数组，格式如 [DataView, DataView, DataView ...] 。
+
++ 主动获取
+
+```js
+getWholeData();     // [DataView, DataView, DataView ...]
+
+getNextData();      // [DataView, DataView, DataView ...]
+```
+
+getWholeData() 的值和`onprogress`回调中的data数据一致。
+
+getNextData() 获取的是前一次 getNextData() 之后的值，他只是data数据的一小部分。
+
 
 ## 实例属性
 
@@ -33,3 +56,11 @@ let recorder = new Recorder({
 ```js
 console.log(recorder.duration);
 ```
+
+### fileSize
+> 录音文件大小（单位：字节）。
+
+```js
+console.log(recorder.fileSize);
+```
+

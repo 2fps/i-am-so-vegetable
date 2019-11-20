@@ -16,6 +16,7 @@
         "copy-code-button",
         "github",
         "tbfed-pagefooter",
+        "baidu-tongji",
         "page-toc-button",
         "pageview-count",
         "popup"
@@ -32,6 +33,9 @@
         "page-toc-button": {
             "maxTocDepth": 2,
             "minTocSize": 2
+        },
+        "baidu-tongji": {
+            "token": "8a92d7c6f8fa1707579944211d49b410"
         }
    }
 }
